@@ -14,8 +14,8 @@ const jPCharacters = {
     ianMalcolm: "Jeff Goldblum"
 };
 // 2b
-const seeCharacters = (a) => {
-    console.log(a.ellieSattler);
+const seeCharacters = ({ellieSattler}) => {
+    console.log(ellieSattler);
 }
 seeCharacters(jPCharacters);
 
